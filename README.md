@@ -1,5 +1,5 @@
 ## NEXTJS WEBPROJECT
-![Skärmavbild 2023-12-19 kl  03 51 25](https://github.com/MarlonGarciaBermejo/NextJS-FrontEnd-WebProject/assets/94327966/eee4888e-e7a4-4c5a-8a6d-ce1b25abcba6)
+https://github.com/MarlonGarciaBermejo/NextJS-FrontEnd-WebProject/assets/94327966/672b50df-1dd4-4fff-9e6f-23b5036d0402
 
 ### Spline 3D Model-Build
 ![Skärmavbild 2023-12-19 kl  03 53 56](https://github.com/MarlonGarciaBermejo/NextJS-FrontEnd-WebProject/assets/94327966/ba16441f-fb02-4b5d-abad-22778d116084)
