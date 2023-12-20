@@ -3,12 +3,13 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 
+
 export const HeroSection = () => {
   return (
     <section className="lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-5 place-self-center text-center sm:text-left">
-        <h1 className="text-white mb-1 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-bold">
+        <h1 className="text-white mb-1 py-24 pb-7 text-4xl sm:text-5xl lg:text-5xl lg:leading-normal font-bold">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-700">
         Welcome, I'm{"  "}
         </span>
@@ -25,11 +26,11 @@ export const HeroSection = () => {
         1000
       ]}
       wrapper="span"
-      speed={50}
+      speed={40}
       repeat={Infinity}
     />
         </h1>
-        <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">
+        <p className="text-white text-base sm:text-lg mb-5 py-0 px-5 pl-1 lg:text-xl">
             I'm a application developer mainly focusing on front-end with javascript.
             </p>
             <div>
@@ -44,16 +45,19 @@ export const HeroSection = () => {
             </div>
             </div>
             <div className="col-span-1 place-self-center mt-4 lg:mt-0"></div>
-            <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative mt-9">
-            <Image 
-            src="/images/mini-room.png"
+            <div className="w-[300px] h-[300px] lg:w-[700px] lg:h-[600px] relative mt-20">
+            
+            <Image
+            src="/images/header-img.png"
             alt="hero image"
             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            width={700}
-            height={700}
+            width={500}
+            height={768}
             />
             </div>
             </div>
     </section>
   );
 }
+
+export default HeroSection;

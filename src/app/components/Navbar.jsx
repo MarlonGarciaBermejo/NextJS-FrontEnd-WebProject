@@ -2,7 +2,8 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import NavLink from './NavLink';
-import { Bars3Icon, XmarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import MenuOverlay from './MenuOverlay';
 
 const navLinks = [
     {
@@ -23,10 +24,10 @@ export const Navbar = () => {
 const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90'>
+    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
     <div className="flex flex-wrap items-center justify-between mx-auto px-4">
     <Link href={"/"} className="text-5xl text-white font-semibold">
-     <img className="h-[90px] " src="./images/logo.png" alt="" />
+     <img className="h-[90px] " src="./images/logo.png" alt="logo" />
     </Link>
     <div className="mobile-menu block md:hidden">
     {
@@ -36,7 +37,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
             </button>
         ) : (
             <button onClick={() => setNavbarOpen(false)} className='flex items-center px-3 py-2 border-rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
-                <XmarkIcon className="h-7 w-7" />
+                <XMarkIcon className="h-7 w-7" />
             </button>
         )
     }
@@ -53,6 +54,8 @@ const [navbarOpen, setNavbarOpen] = useState(false);
     </ul>
     </div>
     </div>  
+    {navbarOpen ? <MenuOverlay links={navLinks}/> : null
+    }
     </nav>
   );
 };
