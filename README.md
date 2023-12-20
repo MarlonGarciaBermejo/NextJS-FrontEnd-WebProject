@@ -1,6 +1,6 @@
 ## NEXTJS WEBPROJECT
 
-![Skärmavbild 2023-12-19 kl  04 08 30](https://github.com/MarlonGarciaBermejo/NextJS-FrontEnd-WebProject/assets/94327966/b74b9b4a-4bd7-4cf6-8d13-650319b6e2b3)
+![Skärmavbild 2023-12-20 kl  01 08 56](https://github.com/MarlonGarciaBermejo/NextJS-FrontEnd-WebProject/assets/94327966/433a6a2b-d254-4347-a164-ddfd5837a1fd)
 
 https://github.com/MarlonGarciaBermejo/NextJS-FrontEnd-WebProject/assets/94327966/672b50df-1dd4-4fff-9e6f-23b5036d0402
 
