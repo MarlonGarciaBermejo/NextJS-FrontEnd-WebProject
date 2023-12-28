@@ -56,8 +56,7 @@ const AboutSection = () => {
     <Image src="/images/about-image.png" width={500} height={500} />
     <div>
     <h2 className="text-4xl font-bold text-white mb-4">About <span className="text-4xl font-bold text-blue-500">Me</span></h2>
-   <p className='text-base lg:text-lg'>Info text about myself here. awdawdawda
-    ddwawawdawdawdadawdawdawdawdawdwadawdawdawdawdawd.
+   <p className='text-base lg:text-lg'>Info text about myself here.
    </p>
     <div className="flex flex-row mt-8">
     <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}> Skills </TabButton>
